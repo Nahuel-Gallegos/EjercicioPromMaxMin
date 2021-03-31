@@ -1,0 +1,16 @@
+20:24:16 **** Incremental Build of configuration Debug for project Ordenamiento(burbujeo) ****
+make all 
+Building file: ../src/Ordenamiento(burbujeo).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ordenamiento(burbujeo).d" -MT"src/Ordenamiento(burbujeo).o" -o "src/Ordenamiento(burbujeo).o" "../src/Ordenamiento(burbujeo).c"
+Finished building: ../src/Ordenamiento(burbujeo).c
+ 
+Building target: Ordenamiento
+Invoking: GCC C Linker
+gcc  -o "Ordenamiento(burbujeo)"  ./src/Ordenamiento(burbujeo).o   
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:43: Ordenamiento(burbujeo)] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+20:24:17 Build Failed. 1 errors, 0 warnings. (took 850ms)
+

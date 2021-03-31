@@ -1,0 +1,65 @@
+#include <stdio_ext.h>
+#include <stdlib.h>
+#define cantidadDeNumeros 5
+int ordenamientoArrayDes(int pArray[],int size);
+int imprimirArrayInt(int pArray[],int size);
+
+int main(void)
+{
+	int array[]= {1,5,8,6,8,10,77,111};
+
+	ordenamientoArrayDes(array,8);
+	imprimirArrayInt(array,8);
+
+	return EXIT_SUCCESS;
+}
+
+
+int ordenamientoArrayDes(int pArray[],int size)
+{
+	int contador=0;
+
+	int i=0;
+	int buffer;
+	int retorno;
+	int nuevoSize;
+	int flagSwap;
+
+	if(pArray!=NULL && size>=0)
+	{
+		nuevoSize = size-1;
+		while(flagSwap)
+		{
+			flagSwap=0;
+			for(i=0;i<nuevoSize;i++)
+			{
+				if(pArray[i]<pArray[i+1])
+				{
+					flagSwap=1;
+					buffer=pArray[i];
+					pArray[i]=pArray[i+1];
+					pArray[i+1] = buffer;
+				}
+				contador++;
+			}
+		}
+	}
+	retorno=contador;
+	return retorno;
+}
+
+int imprimirArrayInt(int pArray[],int size)
+{
+	int retorno=-1;
+	int i;
+
+	if(pArray!=NULL && size>=0)
+	{
+		for(i=0;i<size;i++)
+		{
+			printf("%d ",pArray[i]);
+		}
+		retorno = 0;
+	}
+	return retorno;
+}

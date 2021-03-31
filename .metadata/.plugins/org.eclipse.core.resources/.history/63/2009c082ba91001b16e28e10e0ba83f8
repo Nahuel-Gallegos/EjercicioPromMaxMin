@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "utn_biblioteca.h"
+
+/*
+ * hacer una funcion
+ * en el main pedir una cantidad de edades
+ * maximo
+ * minimo
+ * promedio
+ */
+
+int main(void)
+{
+	int edadesArray[]={25,32,55,10,80};
+	int resultado;
+
+
+
+	return EXIT_SUCCESS;
+}
+
+utn_maximoArrayInt(int* edadesArray,int size,int* resultado)
+{
+	int acumulador;
+	int maximo;
+
+	if(edadesArray!=NULL && resultado>=0)
+	{
+		maximo = edadesArray[0];
+		for(int i=0;i<size-1;i++)
+		{
+			if(maximo<edadesArray[i])
+			{
+				maximo=edadesArray[i];
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

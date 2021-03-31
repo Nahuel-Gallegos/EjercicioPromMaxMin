@@ -1,0 +1,15 @@
+22:00:05 **** Incremental Build of configuration Debug for project adivinarElNumero ****
+make all 
+Building file: ../src/adivinarElNumero.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/adivinarElNumero.d" -MT"src/adivinarElNumero.o" -o "src/adivinarElNumero.o" "../src/adivinarElNumero.c"
+Finished building: ../src/adivinarElNumero.c
+ 
+Building target: adivinarElNumero
+Invoking: GCC C Linker
+gcc  -o "adivinarElNumero"  ./src/adivinarElNumero.o ./src/utn_biblioteca.o   
+Finished building target: adivinarElNumero
+ 
+
+22:00:06 Build Finished. 0 errors, 0 warnings. (took 818ms)
+

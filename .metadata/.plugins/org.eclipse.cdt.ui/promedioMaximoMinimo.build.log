@@ -1,0 +1,150 @@
+21:26:52 **** Incremental Build of configuration Debug for project promedioMaximoMinimo ****
+make all 
+Building file: ../src/promedioMaximoMinimo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/promedioMaximoMinimo.d" -MT"src/promedioMaximoMinimo.o" -o "src/promedioMaximoMinimo.o" "../src/promedioMaximoMinimo.c"
+../src/promedioMaximoMinimo.c:1:1: error: expected identifier or ‘(’ before ‘/’ token
+    1 | /
+      | ^
+In file included from /usr/include/stdio.h:43,
+                 from ../src/promedioMaximoMinimo.c:2:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:95:3: error: unknown type name ‘size_t’
+   95 |   size_t __pad5;
+      |   ^~~~~~
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:98:67: error: ‘size_t’ undeclared here (not in a function)
+   98 |   char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+      |                                                                   ^~~~~~
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | /* Copyright (C) 1991-2020 Free Software Foundation, Inc.
+In file included from ../src/promedioMaximoMinimo.c:2:
+/usr/include/stdio.h:292:35: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  292 | extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
+      |                                   ^~~~~~
+/usr/include/stdio.h:298:47: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  298 | extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __THROW __wur;
+      |                                               ^~~~~~
+/usr/include/stdio.h:309:20: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  309 |       int __modes, size_t __n) __THROW;
+      |                    ^~~~~~
+/usr/include/stdio.h:315:10: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  315 |          size_t __size) __THROW;
+      |          ^~~~~~
+/usr/include/stdio.h:354:44: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  354 | extern int snprintf (char *__restrict __s, size_t __maxlen,
+      |                                            ^~~~~~
+/usr/include/stdio.h:358:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  358 | extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+      |                                             ^~~~~~
+/usr/include/stdio.h:604:30: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  604 |                              size_t *__restrict __n, int __delimiter,
+      |                              ^~~~~~
+/usr/include/stdio.h:607:28: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  607 |                            size_t *__restrict __n, int __delimiter,
+      |                            ^~~~~~
+/usr/include/stdio.h:617:27: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  617 |                           size_t *__restrict __n,
+      |                           ^~~~~~
+/usr/include/stdio.h:646:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fread’
+  646 | extern size_t fread (void *__restrict __ptr, size_t __size,
+      |               ^~~~~
+/usr/include/stdio.h:652:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fwrite’
+  652 | extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+      |               ^~~~~~
+/usr/include/stdio.h:673:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fread_unlocked’
+  673 | extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+      |               ^~~~~~~~~~~~~~
+/usr/include/stdio.h:675:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fwrite_unlocked’
+  675 | extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+      |               ^~~~~~~~~~~~~~~
+In file included from ../src/promedioMaximoMinimo.c:3:
+/usr/include/stdlib.h:97:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__ctype_get_mb_cur_max’
+   97 | extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;
+      |               ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/promedioMaximoMinimo.c:3:
+/usr/include/stdlib.h:411:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  411 |    size_t __statelen) __THROW __nonnull ((2));
+      |    ^~~~~~
+/usr/include/stdlib.h:441:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  441 |    size_t __statelen,
+      |    ^~~~~~
+/usr/include/stdlib.h:539:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  539 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |                      ^~~~~~
+/usr/include/stdlib.h:542:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  542 | extern void *calloc (size_t __nmemb, size_t __size)
+      |                      ^~~~~~
+/usr/include/stdlib.h:542:38: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  542 | extern void *calloc (size_t __nmemb, size_t __size)
+      |                                      ^~~~~~
+/usr/include/stdlib.h:550:36: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  550 | extern void *realloc (void *__ptr, size_t __size)
+      |                                    ^~~~~~
+/usr/include/stdlib.h:559:41: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  559 | extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+      |                                         ^~~~~~
+/usr/include/stdlib.h:559:57: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  559 | extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+      |                                                         ^~~~~~
+In file included from /usr/include/stdlib.h:568,
+                 from ../src/promedioMaximoMinimo.c:3:
+/usr/include/alloca.h:32:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+   32 | extern void *alloca (size_t __size) __THROW;
+      |                      ^~~~~~
+In file included from ../src/promedioMaximoMinimo.c:3:
+/usr/include/stdlib.h:574:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  574 | extern void *valloc (size_t __size) __THROW __attribute_malloc__
+      |                      ^~~~~~
+/usr/include/stdlib.h:580:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  580 | extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+      |                                             ^~~~~~
+/usr/include/stdlib.h:580:65: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  580 | extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+      |                                                                 ^~~~~~
+/usr/include/stdlib.h:586:29: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  586 | extern void *aligned_alloc (size_t __alignment, size_t __size)
+      |                             ^~~~~~
+/usr/include/stdlib.h:586:49: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  586 | extern void *aligned_alloc (size_t __alignment, size_t __size)
+      |                                                 ^~~~~~
+/usr/include/stdlib.h:821:9: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  821 |         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+      |         ^~~~~~
+/usr/include/stdlib.h:821:25: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  821 |         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+      |                         ^~~~~~
+/usr/include/stdlib.h:830:34: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  830 | extern void qsort (void *__base, size_t __nmemb, size_t __size,
+      |                                  ^~~~~~
+/usr/include/stdlib.h:830:50: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  830 | extern void qsort (void *__base, size_t __nmemb, size_t __size,
+      |                                                  ^~~~~~
+/usr/include/stdlib.h:904:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  904 |      size_t __len) __THROW __nonnull ((3, 4, 5));
+      |      ^~~~~~
+/usr/include/stdlib.h:907:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  907 |      size_t __len) __THROW __nonnull ((3, 4, 5));
+      |      ^~~~~~
+/usr/include/stdlib.h:911:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  911 |       char *__restrict __buf, size_t __len)
+      |                               ^~~~~~
+/usr/include/stdlib.h:915:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  915 |       char *__restrict __buf, size_t __len)
+      |                               ^~~~~~
+/usr/include/stdlib.h:922:36: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  922 | extern int mblen (const char *__s, size_t __n) __THROW;
+      |                                    ^~~~~~
+/usr/include/stdlib.h:926:34: error: expected declaration specifiers or ‘...’ before ‘size_t’
+  926 |      const char *__restrict __s, size_t __n) __THROW;
+      |                                  ^~~~~~
+/usr/include/stdlib.h:933:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘mbstowcs’
+  933 | extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+      |               ^~~~~~~~
+/usr/include/stdlib.h:936:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘wcstombs’
+  936 | extern size_t wcstombs (char *__restrict __s,
+      |               ^~~~~~~~
+make: *** [src/subdir.mk:20: src/promedioMaximoMinimo.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+21:26:53 Build Failed. 44 errors, 0 warnings. (took 931ms)
+

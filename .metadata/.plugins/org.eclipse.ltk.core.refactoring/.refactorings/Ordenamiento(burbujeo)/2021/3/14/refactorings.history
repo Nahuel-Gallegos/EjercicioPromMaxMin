@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ordenamiento(burbujeo)/src/EsteSiAnda.c&apos; to &apos;Ordenamiento(burbujeo).c&apos;" description="Rename resource &apos;EsteSiAnda.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/EsteSiAnda.c" name="Ordenamiento(burbujeo).c" stamp="1617146151403" updateReferences="true"/>
+</session>

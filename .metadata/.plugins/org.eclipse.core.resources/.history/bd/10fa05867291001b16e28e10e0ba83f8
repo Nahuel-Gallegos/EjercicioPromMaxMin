@@ -1,0 +1,59 @@
+/*
+ ============================================================================
+ Name        : EsteSiAnda.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int ordenamientoArrayDes(int pArray[],int size);
+
+int ordenamientoArrayDes(int pArray[],int size);
+
+int main(void)
+{
+	int ArrayDesardenado[] = {4,7,85,55,89,33};
+	int respuesta;
+
+
+	ordenamientoArrayDes(ArrayDesardenado,6);
+	respuesta = (ordenamientoArrayDes(ArrayDesardenado,6));
+	printf("%d",respuesta);
+
+	return EXIT_SUCCESS;
+}
+
+int ordenamientoArrayDes(int pArray[],int size)
+{
+	int contador=0;
+	int flagSwap=1;
+	int i;
+	int buffer;
+	int nuevoSize;
+
+		nuevoSize = size-1;
+
+		do{
+			printf("entramos al dowhile\n");
+			flagSwap=0;
+			for(i=0;i>nuevoSize;i++)
+			{
+				printf("entramos al for\n");
+				contador++;
+				if(pArray[i]<pArray[i+1])
+				{
+					flagSwap=1;
+					buffer=pArray[i];
+					pArray[i]=pArray[i+1];
+					pArray[i+1] = buffer;
+				}
+			}
+			nuevoSize--;
+		}while(flagSwap==1);
+
+	return contador;
+}

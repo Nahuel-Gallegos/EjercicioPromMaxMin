@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "utn_biblioteca.h"
+#define cantidadDeNumeros 5
+/*
+ * Solicitar al usuario 5 números, almacenar estos en un array de enteros, permitir
+ * listarlos por pantalla indicando el máximo, el mínimo y el promedio. Permitir Modificar
+ * el valor de cualquiera de los números cargados indicando el índice del mismo y su nuevo valor.
+ */
+int main(void)
+{
+	int numeros[cantidadDeNumeros];
+	int i;
+
+	for(i=0;i<cantidadDeNumeros;i++)
+	{
+		utn_int(&numeros[i],"Ingrese un numero\n","numero invalido, reingrese:\n",0,1000,3);
+
+	}
+	return EXIT_SUCCESS;
+}

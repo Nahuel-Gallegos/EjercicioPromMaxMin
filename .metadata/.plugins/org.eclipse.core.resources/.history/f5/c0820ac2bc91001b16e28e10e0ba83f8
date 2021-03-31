@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "utn_biblioteca.h"
+#define CantidadEdades 5
+
+/*
+ * hacer una funcion
+ * en el main pedir una cantidad de edades
+ * maximo
+ * minimo
+ * promedio
+ */
+int utn_maximoArrayInt(int* edadesArray,int size,int* resultado);
+int main(void)
+{
+	int edadesArray[5];
+	int resultado;
+
+	edadesArray[0] = 32;
+	edadesArray[1] = 50;
+	edadesArray[2] = 15;
+	edadesArray[3] = 80;
+	edadesArray[4] = 27;
+
+	utn_maximoArrayInt(edadesArray,CantidadEdades,&resultado);
+	printf("resultado es %d",resultado);
+
+
+	return EXIT_SUCCESS;
+}
+
+int utn_maximoArrayInt(int* edadesArray,int size,int* resultado)
+{
+	int maximo;
+	int retorno = -1;
+
+	if(edadesArray!=NULL && resultado>=0)
+	{
+		maximo = edadesArray[0];
+		for(int i=0;i<size-1;i++)
+		{
+			if(edadesArray[i]>1 && edadesArray[i]<150)
+			{
+				if(maximo<edadesArray[i])
+				{
+					maximo=edadesArray[i];
+				}
+			}
+		}
+		retorno = 0;
+		*resultado = maximo;
+	}
+	return retorno;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

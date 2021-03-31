@@ -1,0 +1,6 @@
+21:19:38 **** Incremental Build of configuration Debug for project UltimaVersionBiblioteca ****
+make all 
+make: No se hace nada para 'all'.
+
+21:19:39 Build Finished. 0 errors, 0 warnings. (took 850ms)
+

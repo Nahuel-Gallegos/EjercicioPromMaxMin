@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "utn_biblioteca.h"
+/*
+ * Generar un programa que adivine el numero que ingresa el usuario del 0 al 100
+ */
+int main(void)
+{
+
+//	int numeroIngresado;
+//	int resultado;
+	rand()%(N+1);
+
+	/*resultado = utn_int(&numeroIngresado,"Ingrese un numero del 0 al 100:","Error, ingrese una respuesta valida",0,100,3);
+	if(resultado==1)
+	{
+		if(numeroIngresado<)
+	}
+	else
+	{
+		prinf("Ingreso demasiadas veces respuestas invalidas, juegue nuevamente.")
+	}*/
+	return EXIT_SUCCESS;
+}
