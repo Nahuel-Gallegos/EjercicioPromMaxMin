@@ -1,3 +1,1583 @@
-22:46:53 **** Incremental Build of configuration Debug for project promedioMaximoMinimo2.0 ****
+19:48:17 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
 make all 
 make: No se hace nada para 'all'.
+19:49:28 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:20:2: warning: implicit declaration of function ‘utn_minimoArrayInt’ [-Wimplicit-function-declaration]
+   20 |  utn_minimoArrayInt(array[],5,&minimo);
+      |  ^~~~~~~~~~~~~~~~~~
+../src/algoritmoLudmila.c:20:27: error: expected expression before ‘]’ token
+   20 |  utn_minimoArrayInt(array[],5,&minimo);
+      |                           ^
+../src/algoritmoLudmila.c:17:6: warning: variable ‘array’ set but not used [-Wunused-but-set-variable]
+   17 |  int array[5]={21,18,15,9,5};
+      |      ^~~~~
+make: *** [src/subdir.mk:23: src/algoritmoLudmila.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:49:53 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:38:2: warning: "/*" within comment [-Wcomment]
+   38 |  /*
+      |   
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:20:2: warning: implicit declaration of function ‘utn_minimoArrayInt’ [-Wimplicit-function-declaration]
+   20 |  utn_minimoArrayInt(array[],5,&minimo);
+      |  ^~~~~~~~~~~~~~~~~~
+../src/algoritmoLudmila.c:20:27: error: expected expression before ‘]’ token
+   20 |  utn_minimoArrayInt(array[],5,&minimo);
+      |                           ^
+../src/algoritmoLudmila.c:17:6: warning: variable ‘array’ set but not used [-Wunused-but-set-variable]
+   17 |  int array[5]={21,18,15,9,5};
+      |      ^~~~~
+make: *** [src/subdir.mk:23: src/algoritmoLudmila.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:50:14 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:20:2: warning: implicit declaration of function ‘utn_minimoArrayInt’ [-Wimplicit-function-declaration]
+   20 |  utn_minimoArrayInt(array,5,&minimo);
+      |  ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+19:50:58 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+19:51:15 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+19:51:19 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+19:51:20 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+19:57:56 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘utn_minimoArrayInt’:
+../src/algoritmoL.c:20:17: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   20 |     indiceMenor = i;
+      |                 ^
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:52:3: error: too few arguments to function ‘utn_minimoArrayInt’
+   52 |   utn_minimoArrayInt(pArray,nuevoLimite,&minimo);
+      |   ^~~~~~~~~~~~~~~~~~
+../src/algoritmoL.c:7:5: note: declared here
+    7 | int utn_minimoArrayInt(int* pArray,int size,int* resultado,int* indiceMenor)
+      |     ^~~~~~~~~~~~~~~~~~
+../src/algoritmoL.c:37:6: warning: variable ‘buffer’ set but not used [-Wunused-but-set-variable]
+   37 |  int buffer;
+      |      ^~~~~~
+../src/algoritmoL.c:33:6: warning: unused variable ‘retorno’ [-Wunused-variable]
+   33 |  int retorno=-1;
+      |      ^~~~~~~
+../src/algoritmoL.c:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:58:14 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:40:2: warning: "/*" within comment [-Wcomment]
+   40 |  /*
+      |   
+../src/algoritmoL.c:49:2: error: expected identifier or ‘(’ before ‘for’
+   49 |  for(i=0;i<size-1;i++)
+      |  ^~~
+../src/algoritmoL.c:49:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+   49 |  for(i=0;i<size-1;i++)
+      |           ^
+../src/algoritmoL.c:49:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+   49 |  for(i=0;i<size-1;i++)
+      |                    ^~
+../src/algoritmoL.c:62:1: error: expected identifier or ‘(’ before ‘}’ token
+   62 | }
+      | ^
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:58:25 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:40:2: warning: "/*" within comment [-Wcomment]
+   40 |  /*
+      |   
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+19:58:33 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+19:58:37 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+19:59:08 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+19:59:09 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+19:59:15 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+19:59:18 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+19:59:38 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+19:59:40 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:00:23 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘utn_minimoArrayInt’:
+../src/algoritmoL.c:21:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   21 |     printf("%d",indiceMenor);
+      |             ~^  ~~~~~~~~~~~
+      |              |  |
+      |              |  int *
+      |              int
+      |             %ls
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:00:41 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:00:43 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:01:08 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:24:24: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   24 |  printf("indice menor %d",&indice);
+      |                       ~^  ~~~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %ls
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:01:20 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:24:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+   24 |  printf("indice menor %d",*indice);
+      |                           ^~~~~~~
+make: *** [src/subdir.mk:23: src/algoritmoLudmila.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:01:31 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:24:24: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   24 |  printf("indice menor %d",&indice);
+      |                       ~^  ~~~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %ls
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:01:42 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:01:44 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:01:47 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:02:42 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:02:44 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:09:53 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:35:6: warning: unused variable ‘retorno’ [-Wunused-variable]
+   35 |  int retorno=-1;
+      |      ^~~~~~~
+../src/algoritmoL.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+   65 | }
+      | ^
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:10:19 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:11:26 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:19:6: warning: unused variable ‘indice’ [-Wunused-variable]
+   19 |  int indice;
+      |      ^~~~~~
+../src/algoritmoLudmila.c:18:6: warning: unused variable ‘minimo’ [-Wunused-variable]
+   18 |  int minimo;
+      |      ^~~~~~
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:11:33 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:12:48 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:12:50 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:12:59 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:13:03 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:13:58 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:14:00 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:17:49 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:31:5: error: conflicting types for ‘utn_minimoArrayInt’
+   31 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado,int* indiceMinimo)
+      |     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/algoritmoL.c:3:
+../src/algoritmoL.h:5:5: note: previous declaration of ‘utn_minimoArrayInt’ was here
+    5 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado);
+      |     ^~~~~~~~~~~~~~~~~~
+../src/algoritmoL.c: In function ‘utn_minimoArrayInt’:
+../src/algoritmoL.c:47:19: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   47 |      indiceMinimo = i;
+      |                   ^
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:77:28: warning: passing argument 1 of ‘utn_minimoArrayInt’ makes pointer from integer without a cast [-Wint-conversion]
+   77 |   utn_minimoArrayInt(pArray[i],nuevoLimite,&minimo,&indiceMinimo);
+      |                      ~~~~~~^~~
+      |                            |
+      |                            int
+../src/algoritmoL.c:31:29: note: expected ‘int *’ but argument is of type ‘int’
+   31 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado,int* indiceMinimo)
+      |                        ~~~~~^~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:18:02 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘utn_minimoArrayInt’:
+../src/algoritmoL.c:47:19: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   47 |      indiceMinimo = i;
+      |                   ^
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:77:28: warning: passing argument 1 of ‘utn_minimoArrayInt’ makes pointer from integer without a cast [-Wint-conversion]
+   77 |   utn_minimoArrayInt(pArray[i],nuevoLimite,&minimo,&indiceMinimo);
+      |                      ~~~~~~^~~
+      |                            |
+      |                            int
+../src/algoritmoL.c:31:29: note: expected ‘int *’ but argument is of type ‘int’
+   31 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado,int* indiceMinimo)
+      |                        ~~~~~^~~~~~~~~~~
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:18:13 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:77:28: warning: passing argument 1 of ‘utn_minimoArrayInt’ makes pointer from integer without a cast [-Wint-conversion]
+   77 |   utn_minimoArrayInt(pArray[i],nuevoLimite,&minimo,&indiceMinimo);
+      |                      ~~~~~~^~~
+      |                            |
+      |                            int
+../src/algoritmoL.c:31:29: note: expected ‘int *’ but argument is of type ‘int’
+   31 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado,int* indiceMinimo)
+      |                        ~~~~~^~~~~~~~~~~
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:18:39 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:19:02 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:62:6: warning: variable ‘nuevoLimite’ set but not used [-Wunused-but-set-variable]
+   62 |  int nuevoLimite;
+      |      ^~~~~~~~~~~
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:19:12 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:64:2: error: ‘nuevoLimite’ undeclared (first use in this function)
+   64 |  nuevoLimite=size;
+      |  ^~~~~~~~~~~
+../src/algoritmoL.c:64:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:19:16 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:19:58 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:75:28: warning: passing argument 1 of ‘utn_minimoArrayInt’ makes pointer from integer without a cast [-Wint-conversion]
+   75 |   utn_minimoArrayInt(pArray[i],size,&minimo,&indiceMinimo);
+      |                      ~~~~~~^~~
+      |                            |
+      |                            int
+../src/algoritmoL.c:31:29: note: expected ‘int *’ but argument is of type ‘int’
+   31 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado,int* indiceMinimo)
+      |                        ~~~~~^~~~~~~~~~~
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:20:10 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:31:5: error: conflicting types for ‘utn_minimoArrayInt’
+   31 | int utn_minimoArrayInt(int* edadesArray[],int size,int* resultado,int* indiceMinimo)
+      |     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/algoritmoL.c:3:
+../src/algoritmoL.h:5:5: note: previous declaration of ‘utn_minimoArrayInt’ was here
+    5 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado,int* indiceMinimo);
+      |     ^~~~~~~~~~~~~~~~~~
+../src/algoritmoL.c: In function ‘utn_minimoArrayInt’:
+../src/algoritmoL.c:38:10: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |   minimo = edadesArray[0];
+      |          ^
+../src/algoritmoL.c:42:21: warning: comparison between pointer and integer
+   42 |    if(edadesArray[i]>1 && edadesArray[i]<150)
+      |                     ^
+../src/algoritmoL.c:42:41: warning: comparison between pointer and integer
+   42 |    if(edadesArray[i]>1 && edadesArray[i]<150)
+      |                                         ^
+../src/algoritmoL.c:44:14: warning: comparison between pointer and integer
+   44 |     if(minimo>edadesArray[i])
+      |              ^
+../src/algoritmoL.c:46:12: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |      minimo=edadesArray[i];
+      |            ^
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:75:28: warning: passing argument 1 of ‘utn_minimoArrayInt’ makes pointer from integer without a cast [-Wint-conversion]
+   75 |   utn_minimoArrayInt(pArray[i],size,&minimo,&indiceMinimo);
+      |                      ~~~~~~^~~
+      |                            |
+      |                            int
+../src/algoritmoL.c:31:29: note: expected ‘int **’ but argument is of type ‘int’
+   31 | int utn_minimoArrayInt(int* edadesArray[],int size,int* resultado,int* indiceMinimo)
+      |                        ~~~~~^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:20:45 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:75:28: warning: passing argument 1 of ‘utn_minimoArrayInt’ makes pointer from integer without a cast [-Wint-conversion]
+   75 |   utn_minimoArrayInt(pArray[i],size,&minimo,&indiceMinimo);
+      |                      ~~~~~~^~~
+      |                            |
+      |                            int
+../src/algoritmoL.c:31:28: note: expected ‘int *’ but argument is of type ‘int’
+   31 | int utn_minimoArrayInt(int edadesArray[],int size,int* resultado,int* indiceMinimo)
+      |                        ~~~~^~~~~~~~~~~~~
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:22:25 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:53:28: warning: passing argument 1 of ‘utn_minimoArrayInt’ makes pointer from integer without a cast [-Wint-conversion]
+   53 |   utn_minimoArrayInt(pArray[i],nuevoLimite,&minimo,&indiceMinimo);
+      |                      ~~~~~~^~~
+      |                            |
+      |                            int
+../src/algoritmoL.c:7:29: note: expected ‘int *’ but argument is of type ‘int’
+    7 | int utn_minimoArrayInt(int* pArray,int size,int* resultado,int* indiceMenor)
+      |                        ~~~~~^~~~~~
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:22:35 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:23:15 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:23:17 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:23:28 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:23:30 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:23:44 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:23:46 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:24:11 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:24:12 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:25:30 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:25:31 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:26:52 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:26:54 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:28:42 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:28:44 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:28:55 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘utn_minimoArrayInt’:
+../src/algoritmoL.c:22:19: error: ‘indiceMinimo’ undeclared (first use in this function); did you mean ‘indiceMenor’?
+   22 |     printf("%d\n",indiceMinimo);
+      |                   ^~~~~~~~~~~~
+      |                   indiceMenor
+../src/algoritmoL.c:22:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:29:11 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:29:13 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:30:48 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:30:50 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:30:57 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:30:59 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:33:28 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:33:30 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:33:44 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:33:46 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:34:09 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:34:11 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:35:14 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:65:2: error: expected identifier or ‘(’ before ‘/’ token
+   65 | */
+      |  ^
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:35:20 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:35:23 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:36:49 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:28:23: error: expected ‘)’ before ‘;’ token
+   28 |   printf("%d",array[i];)
+      |                       ^
+      |                       )
+../src/algoritmoLudmila.c:28:25: error: expected ‘;’ before ‘}’ token
+   28 |   printf("%d",array[i];)
+      |                         ^
+      |                         ;
+   29 |  }
+      |  ~                       
+make: *** [src/subdir.mk:23: src/algoritmoLudmila.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:36:55 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:36:57 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:37:10 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:37:13 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:37:22 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:37:24 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:37:44 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:37:47 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:40:33 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:40:34 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:40:45 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:40:46 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:41:05 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:41:06 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:44:52 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:52:28: warning: passing argument 1 of ‘utn_minimoArrayInt’ makes pointer from integer without a cast [-Wint-conversion]
+   52 |   utn_minimoArrayInt(pArray[i],nuevoLimite,&minimo,&indiceMinimo);
+      |                      ~~~~~~^~~
+      |                            |
+      |                            int
+../src/algoritmoL.c:7:29: note: expected ‘int *’ but argument is of type ‘int’
+    7 | int utn_minimoArrayInt(int* pArray,int size,int* resultado,int* indiceMenor)
+      |                        ~~~~~^~~~~~
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:44:54 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:44:59 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:45:03 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:52:29: error: expected expression before ‘]’ token
+   52 |   utn_minimoArrayInt(pArray[],nuevoLimite,&minimo,&indiceMinimo);
+      |                             ^
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:48:22 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:7:5: error: conflicting types for ‘utn_minimoArrayInt’
+    7 | int utn_minimoArrayInt(int* pArray,int size,int* arrancoAca, int* resultado,int* indiceMenor)
+      |     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/algoritmoL.c:3:
+../src/algoritmoL.h:5:5: note: previous declaration of ‘utn_minimoArrayInt’ was here
+    5 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado,int* indiceMinimo);
+      |     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:48:24 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:7:5: error: conflicting types for ‘utn_minimoArrayInt’
+    7 | int utn_minimoArrayInt(int* pArray,int size,int* arrancoAca, int* resultado,int* indiceMenor)
+      |     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/algoritmoL.c:3:
+../src/algoritmoL.h:5:5: note: previous declaration of ‘utn_minimoArrayInt’ was here
+    5 | int utn_minimoArrayInt(int* edadesArray,int size,int* resultado,int* indiceMinimo);
+      |     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:48:44 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:21:2: error: too few arguments to function ‘utn_minimoArrayInt’
+   21 |  utn_minimoArrayInt(array,5,&minimo,&indiceMenor);
+      |  ^~~~~~~~~~~~~~~~~~
+In file included from ../src/algoritmoLudmila.c:3:
+../src/algoritmoL.h:5:5: note: declared here
+    5 | int utn_minimoArrayInt(int* edadesArray,int size,int* arrancoAca,int* resultado,int* indiceMinimo);
+      |     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/algoritmoLudmila.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:49:12 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:49:14 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:49:19 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:49:21 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:49:27 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:50:08 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:50:11 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:50:18 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:50:21 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:51:37 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c:7:5: error: conflicting types for ‘utn_minimoArrayInt’
+    7 | int utn_minimoArrayInt(int* pArray,int size,int arrancoAca, int* resultado,int* indiceMenor)
+      |     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/algoritmoL.c:3:
+../src/algoritmoL.h:5:5: note: previous declaration of ‘utn_minimoArrayInt’ was here
+    5 | int utn_minimoArrayInt(int* edadesArray,int size,int* arrancoAca,int* resultado,int* indiceMinimo);
+      |     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:51:47 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:51:51 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:52:04 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:52:06 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:54:22 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:53:22: warning: passing argument 1 of ‘utn_minimoArrayInt’ from incompatible pointer type [-Wincompatible-pointer-types]
+   53 |   utn_minimoArrayInt(pArray,size,arrancoAca,&minimo,&indiceMinimo);
+      |                      ^~~~~~
+      |                      |
+      |                      int **
+../src/algoritmoL.c:7:29: note: expected ‘int *’ but argument is of type ‘int **’
+    7 | int utn_minimoArrayInt(int* pArray,int size,int arrancoAca, int* resultado,int* indiceMenor)
+      |                        ~~~~~^~~~~~
+../src/algoritmoL.c:55:10: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |   buffer = pArray[i];///array[5]={21,18,15,9,5};
+      |          ^
+../src/algoritmoL.c:56:12: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   56 |   pArray[i]=minimo;
+      |            ^
+../src/algoritmoL.c:57:23: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   57 |   pArray[indiceMinimo]=buffer;
+      |                       ^
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:21:16: warning: passing argument 1 of ‘ordenamientoL’ from incompatible pointer type [-Wincompatible-pointer-types]
+   21 |  ordenamientoL(array,5);
+      |                ^~~~~
+      |                |
+      |                int *
+In file included from ../src/algoritmoLudmila.c:3:
+../src/algoritmoL.h:6:24: note: expected ‘int **’ but argument is of type ‘int *’
+    6 | int ordenamientoL(int* pArray[],int size);
+      |                   ~~~~~^~~~~~~~
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:54:33 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:21:16: warning: passing argument 1 of ‘ordenamientoL’ from incompatible pointer type [-Wincompatible-pointer-types]
+   21 |  ordenamientoL(&array,5);
+      |                ^~~~~~
+      |                |
+      |                int (*)[5]
+In file included from ../src/algoritmoLudmila.c:3:
+../src/algoritmoL.h:6:24: note: expected ‘int **’ but argument is of type ‘int (*)[5]’
+    6 | int ordenamientoL(int* pArray[],int size);
+      |                   ~~~~~^~~~~~~~
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:54:43 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:21:23: error: expected expression before ‘]’ token
+   21 |  ordenamientoL(&array[],5);
+      |                       ^
+make: *** [src/subdir.mk:23: src/algoritmoLudmila.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:54:48 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:21:22: error: expected expression before ‘]’ token
+   21 |  ordenamientoL(array[],5);
+      |                      ^
+make: *** [src/subdir.mk:23: src/algoritmoLudmila.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:54:59 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+../src/algoritmoLudmila.c: In function ‘main’:
+../src/algoritmoLudmila.c:21:16: warning: passing argument 1 of ‘ordenamientoL’ from incompatible pointer type [-Wincompatible-pointer-types]
+   21 |  ordenamientoL(array,5);
+      |                ^~~~~
+      |                |
+      |                int *
+In file included from ../src/algoritmoLudmila.c:3:
+../src/algoritmoL.h:6:24: note: expected ‘int **’ but argument is of type ‘int *’
+    6 | int ordenamientoL(int* pArray[],int size);
+      |                   ~~~~~^~~~~~~~
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:55:22 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:55:25 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:55:59 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:54:3: warning: implicit declaration of function ‘prinf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   54 |   prinf("%d",minimo);
+      |   ^~~~~
+      |   printf
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+/usr/bin/ld: ./src/algoritmoL.o: en la función `ordenamientoL':
+/home/nahuel/eclipse-workspace/algoritmoLudmila/Debug/../src/algoritmoL.c:54: referencia a `prinf' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: algoritmoLudmila] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:56:07 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:56:19 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:56:21 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:57:10 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:57:12 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:58:10 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:58:12 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+20:58:48 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+20:58:49 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+21:00:00 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+21:00:02 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+21:00:12 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+21:01:01 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+21:01:03 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+21:01:10 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+21:01:12 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+21:02:26 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+../src/algoritmoL.c: In function ‘ordenamientoL’:
+../src/algoritmoL.c:61:1: error: expected declaration or statement at end of input
+   61 | }
+      | ^
+../src/algoritmoL.c:81: warning: control reaches end of non-void function [-Wreturn-type]
+   81 | 
+      | 
+make: *** [src/subdir.mk:23: src/algoritmoL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:02:39 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+21:02:41 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+21:02:54 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+21:02:55 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+21:04:26 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoLudmila.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoLudmila.d" -MT"src/algoritmoLudmila.o" -o "src/algoritmoLudmila.o" "../src/algoritmoLudmila.c"
+Finished building: ../src/algoritmoLudmila.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 
+21:04:28 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+make: No se hace nada para 'all'.
+21:07:39 **** Incremental Build of configuration Debug for project algoritmoLudmila ****
+make all 
+Building file: ../src/algoritmoL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algoritmoL.d" -MT"src/algoritmoL.o" -o "src/algoritmoL.o" "../src/algoritmoL.c"
+Finished building: ../src/algoritmoL.c
+ 
+Building target: algoritmoLudmila
+Invoking: GCC C Linker
+gcc  -o "algoritmoLudmila"  ./src/algoritmoL.o ./src/algoritmoLudmila.o   
+Finished building target: algoritmoLudmila
+ 

@@ -1,6 +1,6 @@
-21:16:15 **** Incremental Build of configuration Debug for project ordenamientoBurbujeo ****
+19:03:37 **** Incremental Build of configuration Debug for project ordenamientoBurbujeo ****
 make all 
 make: No se hace nada para 'all'.
 
-21:16:16 Build Finished. 0 errors, 0 warnings. (took 878ms)
+19:03:37 Build Finished. 0 errors, 0 warnings. (took 825ms)
 
